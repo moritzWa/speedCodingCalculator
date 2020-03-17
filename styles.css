@@ -56,14 +56,15 @@ h1 {
   font-weight: bold;
   font-size: 15px;
   border-radius: 169px;
-  border: solid 0.08px #bebebe;
+  border: solid 0.1px #bebebebd;
   background: #ffffff;
   box-shadow: 10px 10px 30px #cde7e7, -10px -10px 30px #faffff;
 }
 .number,
 .empty {
-  background-color: #dffbfd;
+  background-color: #eef7f8;
 }
+
 .number,
 .operator {
   cursor: pointer;
@@ -80,21 +81,27 @@ h1 {
   box-shadow: none;
 }
 button:nth-child(4) {
+  font-size: 25px;
+
   background-color: #c8f0c4;
 }
 button:nth-child(8) {
+  font-size: 25px;
+
   background-color: rgb(255, 220, 124);
 }
 button:nth-child(12) {
+  font-size: 25px;
+
   background-color: #ffbcbc;
 }
 button:nth-child(16) {
+  font-size: 25px;
+
   background-color: #beccff;
 }
-button:nth-child(20) {
-  background-color: #d6beec;
-}
 
-button:nth-child(4 + 1) {
-  font-size: 20px;
+button:nth-child(20) {
+  font-size: 25px;
+  background-color: #d6beec;
 }
