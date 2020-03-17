@@ -1,0 +1,23 @@
+body {
+  font-family: "Sen", sans-serif;
+  background-color: #d9f3f4;
+}
+
+h1 {
+  text-align: center;
+  text-shadow: 10px 10px 25px #465758;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+#calculator {
+  width: 400px;
+  height: 600px;
+  border-radius: 82px;
+  background: #d9f3f4;
+  box-shadow: 46px 46px 92px #bdd3d4, -46px -46px 92px #f5ffff;
+}
