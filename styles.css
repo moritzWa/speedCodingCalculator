@@ -29,7 +29,8 @@ h1 {
 #history {
   text-align: right;
   height: 20px;
-  margin: 0 20px;
+  margin: 0 40px;
+  margin-bottom: 5px;
   padding-top: 20px;
   font-size: 15px;
   color: #919191;
@@ -37,7 +38,7 @@ h1 {
 #output {
   text-align: right;
   height: 60px;
-  margin: 10px 20px;
+  margin: 10px 40px;
   font-size: 30px;
 }
 #keyboard {
@@ -55,8 +56,9 @@ h1 {
   font-weight: bold;
   font-size: 15px;
   border-radius: 169px;
+  border: solid 0.08px #bebebe;
   background: #ffffff;
-  box-shadow: 10px 10px 30px #b8cfcf, -10px -10px 30px #faffff;
+  box-shadow: 10px 10px 30px #cde7e7, -10px -10px 30px #faffff;
 }
 .number,
 .empty {
@@ -74,6 +76,7 @@ h1 {
 .number:focus,
 .empty:focus {
   outline: 0;
+  transition: all 0.2s ease-in-out;
   box-shadow: none;
 }
 button:nth-child(4) {
